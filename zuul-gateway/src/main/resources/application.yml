@@ -17,3 +17,7 @@ spring:
         uri: http://localhost:8084/
         predicates:
         - Path=/employees/**
+      - id: UserModule
+        uri: http://localhost:8090/
+        predicates:
+        - Path=/user/**        
